@@ -9,13 +9,12 @@ namespace CompanyMock
      class Department
     {
         private readonly string departmentName;
-        private int budget;
+        private int budget = 50000;
         private Employee[] employees;
 
-        public Department(string departmentName, int budget, Employee[] employees)
+        public Department(string departmentName, Employee[] employees)
         {
             this.departmentName = departmentName;
-            this.budget = budget;
             this.employees = employees;
         }
 

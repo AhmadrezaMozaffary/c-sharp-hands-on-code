@@ -8,20 +8,18 @@ namespace CompanyMock
 {
     internal class Companypsum
     {
-        static int initBudget = 50000;
-
         static Employee alex = new Employee("Alex Rod", 6);
         static Employee linda = new Employee("Linda Berry", 7);
         static Employee john = new Employee("John Doe", 3);
         static Employee[] salesDepartmentEmployees = { alex, linda, john };
 
-        static readonly Department salesDepartment = new("Sales", initBudget, salesDepartmentEmployees);
+        static readonly Department salesDepartment = new("Sales", salesDepartmentEmployees);
 
         static Employee sarah = new Employee("Sarah Time", 7);
         static Employee james = new Employee("James Doe", 4);
         static Employee[] itDepartmentEmployees = { sarah, james };
 
-        static readonly Department itDepartment = new("IT", initBudget, itDepartmentEmployees);
+        static readonly Department itDepartment = new("IT", itDepartmentEmployees);
 
         public static void Main()
         {
