@@ -6,11 +6,39 @@ using System.Threading.Tasks;
 
 namespace CompanyMock
 {
-    internal class Department
+     class Department
     {
-        public static void Main()
+        private readonly string departmentName;
+        private int budget;
+        private Employee[] employees;
+
+        public Department(string departmentName, int budget, Employee[] employees)
         {
-            Console.WriteLine("Hi");
+            this.departmentName = departmentName;
+            this.budget = budget;
+            this.employees = employees;
+        }
+
+        public void PrintTotalBuget() => Console.WriteLine("The total budget for {0} department is equal to {1}.", departmentName, TotalBudget);
+
+
+        private int TotalBudget
+        {
+            get
+            {
+                foreach (Employee employee in employees)
+                {
+                    if (employee.HasHighGrade())
+                    {
+                        this.budget += 150000;
+                    }
+                    else
+                    {
+                        this.budget += 100000;
+                    }
+                }
+                return this.budget;
+            }
         }
     }
 }
