@@ -1,0 +1,15 @@
+C:\Users\ahmadrezam\Desktop\CShatpPractice\CompanyMock\CompanyMock\bin\Debug\net6.0\CompanyMock.exe
+C:\Users\ahmadrezam\Desktop\CShatpPractice\CompanyMock\CompanyMock\bin\Debug\net6.0\CompanyMock.deps.json
+C:\Users\ahmadrezam\Desktop\CShatpPractice\CompanyMock\CompanyMock\bin\Debug\net6.0\CompanyMock.runtimeconfig.json
+C:\Users\ahmadrezam\Desktop\CShatpPractice\CompanyMock\CompanyMock\bin\Debug\net6.0\CompanyMock.dll
+C:\Users\ahmadrezam\Desktop\CShatpPractice\CompanyMock\CompanyMock\bin\Debug\net6.0\CompanyMock.pdb
+C:\Users\ahmadrezam\Desktop\CShatpPractice\CompanyMock\CompanyMock\obj\Debug\net6.0\CompanyMock.csproj.AssemblyReference.cache
+C:\Users\ahmadrezam\Desktop\CShatpPractice\CompanyMock\CompanyMock\obj\Debug\net6.0\CompanyMock.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ahmadrezam\Desktop\CShatpPractice\CompanyMock\CompanyMock\obj\Debug\net6.0\CompanyMock.AssemblyInfoInputs.cache
+C:\Users\ahmadrezam\Desktop\CShatpPractice\CompanyMock\CompanyMock\obj\Debug\net6.0\CompanyMock.AssemblyInfo.cs
+C:\Users\ahmadrezam\Desktop\CShatpPractice\CompanyMock\CompanyMock\obj\Debug\net6.0\CompanyMock.csproj.CoreCompileInputs.cache
+C:\Users\ahmadrezam\Desktop\CShatpPractice\CompanyMock\CompanyMock\obj\Debug\net6.0\CompanyMock.dll
+C:\Users\ahmadrezam\Desktop\CShatpPractice\CompanyMock\CompanyMock\obj\Debug\net6.0\refint\CompanyMock.dll
+C:\Users\ahmadrezam\Desktop\CShatpPractice\CompanyMock\CompanyMock\obj\Debug\net6.0\CompanyMock.pdb
+C:\Users\ahmadrezam\Desktop\CShatpPractice\CompanyMock\CompanyMock\obj\Debug\net6.0\CompanyMock.genruntimeconfig.cache
+C:\Users\ahmadrezam\Desktop\CShatpPractice\CompanyMock\CompanyMock\obj\Debug\net6.0\ref\CompanyMock.dll
