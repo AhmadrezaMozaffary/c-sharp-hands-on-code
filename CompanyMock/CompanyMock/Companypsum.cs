@@ -8,24 +8,29 @@ namespace CompanyMock
 {
     internal class Companypsum
     {
-        static Employee alex = new Employee("Alex Rod", 6);
-        static Employee linda = new Employee("Linda Berry", 7);
-        static Employee john = new Employee("John Doe", 3);
-        static Employee[] salesDepartmentEmployees = { alex, linda, john };
+        static Employee alex = new("Alex Rod", 6);
+        static Employee linda = new("Linda Berry", 7);
+        static Employee john = new("John Doe", 3);
 
-        static readonly Department salesDepartment = new("Sales", salesDepartmentEmployees);
+        static readonly Department salesDepartment = new("Sales");
 
-        static Employee sarah = new Employee("Sarah Time", 7);
-        static Employee james = new Employee("James Doe", 4);
-        static Employee[] itDepartmentEmployees = { sarah, james };
+        static Employee sarah = new("Sarah Time", 7);
+        static Employee james = new("James Doe", 4);
 
-        static readonly Department itDepartment = new("IT", itDepartmentEmployees);
+        static readonly Department itDepartment = new("IT");
 
         public static void Main()
         {
-            salesDepartment.PrintTotalBuget();
+            salesDepartment.AddNewEmployee(alex);
+            salesDepartment.AddNewEmployee(linda);
+            salesDepartment.AddNewEmployee(john);
 
-            itDepartment.PrintTotalBuget();
+            salesDepartment.PrintTotalBudget();
+
+            itDepartment.AddNewEmployee(sarah);
+            itDepartment.AddNewEmployee(james); 
+
+            itDepartment.PrintTotalBudget();
         }
     }
 }

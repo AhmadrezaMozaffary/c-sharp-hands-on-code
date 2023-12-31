@@ -10,15 +10,19 @@ namespace CompanyMock
     {
         private readonly string departmentName;
         private int budget = 50000;
-        private Employee[] employees;
+        private List<Employee> employees = new();
 
-        public Department(string departmentName, Employee[] employees)
+        public Department(string departmentName)
         {
             this.departmentName = departmentName;
-            this.employees = employees;
         }
 
-        public void PrintTotalBuget() => Console.WriteLine("The total budget for {0} department is equal to {1}.", departmentName, TotalBudget);
+        public void AddNewEmployee (Employee employee)
+        {
+            employees.Add(employee);
+        }
+
+        public void PrintTotalBudget() => Console.WriteLine("The total budget for {0} department is equal to {1}.", departmentName, TotalBudget);
 
 
         private int TotalBudget
