@@ -1,0 +1,15 @@
+C:\Users\ahmadrezam\Desktop\CShatpPractice\Games\RockPapaerScissors\bin\Debug\net6.0\RockPapaerScissors.exe
+C:\Users\ahmadrezam\Desktop\CShatpPractice\Games\RockPapaerScissors\bin\Debug\net6.0\RockPapaerScissors.deps.json
+C:\Users\ahmadrezam\Desktop\CShatpPractice\Games\RockPapaerScissors\bin\Debug\net6.0\RockPapaerScissors.runtimeconfig.json
+C:\Users\ahmadrezam\Desktop\CShatpPractice\Games\RockPapaerScissors\bin\Debug\net6.0\RockPapaerScissors.dll
+C:\Users\ahmadrezam\Desktop\CShatpPractice\Games\RockPapaerScissors\bin\Debug\net6.0\RockPapaerScissors.pdb
+C:\Users\ahmadrezam\Desktop\CShatpPractice\Games\RockPapaerScissors\obj\Debug\net6.0\RockPapaerScissors.csproj.AssemblyReference.cache
+C:\Users\ahmadrezam\Desktop\CShatpPractice\Games\RockPapaerScissors\obj\Debug\net6.0\RockPapaerScissors.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ahmadrezam\Desktop\CShatpPractice\Games\RockPapaerScissors\obj\Debug\net6.0\RockPapaerScissors.AssemblyInfoInputs.cache
+C:\Users\ahmadrezam\Desktop\CShatpPractice\Games\RockPapaerScissors\obj\Debug\net6.0\RockPapaerScissors.AssemblyInfo.cs
+C:\Users\ahmadrezam\Desktop\CShatpPractice\Games\RockPapaerScissors\obj\Debug\net6.0\RockPapaerScissors.csproj.CoreCompileInputs.cache
+C:\Users\ahmadrezam\Desktop\CShatpPractice\Games\RockPapaerScissors\obj\Debug\net6.0\RockPapaerScissors.dll
+C:\Users\ahmadrezam\Desktop\CShatpPractice\Games\RockPapaerScissors\obj\Debug\net6.0\refint\RockPapaerScissors.dll
+C:\Users\ahmadrezam\Desktop\CShatpPractice\Games\RockPapaerScissors\obj\Debug\net6.0\RockPapaerScissors.pdb
+C:\Users\ahmadrezam\Desktop\CShatpPractice\Games\RockPapaerScissors\obj\Debug\net6.0\RockPapaerScissors.genruntimeconfig.cache
+C:\Users\ahmadrezam\Desktop\CShatpPractice\Games\RockPapaerScissors\obj\Debug\net6.0\ref\RockPapaerScissors.dll
