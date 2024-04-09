@@ -8,7 +8,7 @@ namespace Games
     {
         public static void Main(string[] args )
         {
-            Game.Init();
+            GameLuncher.Init();
         }
     }
 }

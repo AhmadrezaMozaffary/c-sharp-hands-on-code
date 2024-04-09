@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "sreQLmDRrFQsUHiym2pv91PQPh3BXmaStBSOWC7YzW2U77eaDze55DOdQexoIhMHM49t+Jt8MdkGYxfCYa9x3Q==",
+  "dgSpecHash": "CehKkQKtb2/6iTIh0pK0vWeX/sainmdXV3ayrz4s4RVxx4Q0Nf3TYcj/+5Q3NT1vt39mZ3+40YXIDVN0icTzeQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\ahmadrezam\\Desktop\\CShatpPractice\\Games\\Games\\Games.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\ahmadrezam\\.nuget\\packages\\documentformat.openxml\\3.0.2\\documentformat.openxml.3.0.2.nupkg.sha512",
+    "C:\\Users\\ahmadrezam\\.nuget\\packages\\documentformat.openxml.framework\\3.0.2\\documentformat.openxml.framework.3.0.2.nupkg.sha512",
+    "C:\\Users\\ahmadrezam\\.nuget\\packages\\system.io.packaging\\8.0.0\\system.io.packaging.8.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
