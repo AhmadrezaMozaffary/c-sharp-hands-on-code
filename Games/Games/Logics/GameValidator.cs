@@ -22,7 +22,7 @@ namespace Games.Logics
                 return false;
             }
 
-            int[] gameIdEnumArray = (int[])Enum.GetValues(typeof(InputId));
+            int[] gameIdEnumArray = Helper.PrintAvailableCommands<InputId>() ;
 
             if (!gameIdEnumArray.Contains(gameId))
             {
@@ -35,26 +35,13 @@ namespace Games.Logics
             }
 
         }
-        private static void PrintName(InputId gameId)
-        {
-            switch (gameId)
-            {
-                case InputId.RockPaperScissors:
-                    Helper.Print("The game name is Rock Paper Scissors");
-                    break;
-
-                default:
-                    ValidationError(ErrorCodes.InvalidGameId);
-                    break;
-            }
-        }
 
         private static void ValidationError(ErrorCodes errCode)
         {
             switch (errCode)
             {
                 case ErrorCodes.InvalidGameId:
-                    Helper.PrintError("Invalid Game Id.");
+                    Helper.PrintError("Invalid input id.");
                     break;
 
             }

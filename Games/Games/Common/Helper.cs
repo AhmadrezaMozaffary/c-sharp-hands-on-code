@@ -8,26 +8,31 @@ namespace Games.Common
 {
     static class Helper
     {
-        private static void PrintToConsole(string msg, PrintType type)
+        private static void PrintToConsole(string msg, PrintType type, ClearType clearable)
         {
             #region Mutate Console Color and Print Error
-            Console.Clear();
+            if(clearable == ClearType.Enable) Console.Clear();
 
-            Console.BackgroundColor = type == PrintType.Success ? ConsoleColor.Green : type == PrintType.Failure ? ConsoleColor.Red : ConsoleColor.Black;
-            Console.ForegroundColor = ConsoleColor.White;
+            Console.BackgroundColor = type == PrintType.Success ? ConsoleColor.Green : type == PrintType.Failure ? ConsoleColor.Red :  ConsoleColor.DarkYellow;
+            Console.ForegroundColor = type != PrintType.Warning ? ConsoleColor.White : ConsoleColor.Black;
             Console.WriteLine(msg);
 
             Console.ResetColor();
             #endregion
         }
-        public static void PrintError(string msg)
+        public static void PrintError(string msg, ClearType clearable = ClearType.Enable)
         {
-            PrintToConsole(msg, PrintType.Failure);
+            PrintToConsole(msg, PrintType.Failure, clearable);
         }
 
-        public static void PrintSuccess(string msg)
+        public static void PrintSuccess(string msg, ClearType clearable = ClearType.Enable)
         {
-            PrintToConsole(msg, PrintType.Success);
+            PrintToConsole(msg, PrintType.Success, clearable);
+        }
+
+        public static void PrintWarning(string msg, ClearType clearable = ClearType.Enable)
+        {
+            PrintToConsole(msg, PrintType.Warning, clearable);
         }
 
         public static void Print(string msg)
@@ -35,14 +40,21 @@ namespace Games.Common
             Console.WriteLine(msg);
         }
 
-        public static void PrintAvailableCommands()
+        public static int[] PrintAvailableCommands<T>()
         {
-            int[] gameIdEnumArray = (int[])Enum.GetValues(typeof(InputId));
-            foreach (int gameId in gameIdEnumArray)
+            int[] commandsArr = (int[])Enum.GetValues(typeof(T));
+            Print("------------------------");
+            foreach (int cmd in commandsArr)
             {
-                string enumName = Enum.GetName(typeof(InputId), gameId);
-                Print(gameId + ") - " + enumName);
+                string enumName = Enum.GetName(typeof(T), cmd);
+                Print(cmd + ") - " + enumName);
             }
+            return commandsArr;
+        }
+
+        public static int GetUserInput()
+        {
+            return int.Parse(Console.ReadLine());
         }
 
     }

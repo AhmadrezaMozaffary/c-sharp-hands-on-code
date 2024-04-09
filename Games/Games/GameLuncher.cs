@@ -19,10 +19,11 @@ namespace Games
 
                 PrintStarterTexts();
    
-                userInput = GetUserInput();
+                userInput = Helper.GetUserInput();
 
-                if (GameValidator.Check(userInput))
-                    LunchGameBy((InputId)userInput);
+                if (!GameValidator.Check(userInput)) return;
+
+                LunchGameBy((InputId)userInput);
             }
             catch (Exception ex)
             {
@@ -44,21 +45,18 @@ namespace Games
         }
 
         public static void PrintStarterTexts() {
-            Helper.PrintAvailableCommands();
-            Helper.Print("------------------------");
-            Helper.Print("Enter Command number to start...");
-            Helper.Print("------------------------");
+            Helper.Print("Enter Command number to start");
+            Helper.PrintAvailableCommands<InputId>();
 
         }
 
-        public static int GetUserInput() { 
-            return int.Parse(Console.ReadLine());
-        }
+       
 
         public static void Exit()
         {
-            Helper.PrintSuccess("Game will be closed after couple of seconds...");
+            Helper.PrintWarning("Game will be closed after couple of seconds...");
             Thread.Sleep(3000);
+            Helper.PrintSuccess("Game Closed.");
             Environment.Exit(0);
         }
     }
