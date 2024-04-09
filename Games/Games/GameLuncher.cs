@@ -18,7 +18,7 @@ namespace Games
                 int userInput;
 
                 PrintStarterTexts();
-   
+
                 userInput = Helper.GetUserInput();
 
                 if (!GameValidator.Check(userInput)) return;
@@ -44,13 +44,14 @@ namespace Games
 
         }
 
-        public static void PrintStarterTexts() {
+        public static void PrintStarterTexts()
+        {
             Helper.Print("Enter Command number to start");
             Helper.PrintAvailableCommands<InputId>();
 
         }
 
-       
+
 
         public static void Exit()
         {

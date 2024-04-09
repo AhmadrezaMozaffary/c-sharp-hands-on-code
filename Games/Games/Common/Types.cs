@@ -17,7 +17,8 @@ namespace Games.Common
         InvalidGameId = 1
     }
 
-    enum PrintType {
+    enum PrintType
+    {
         Success = 1,
         Failure = 2,
         Warning = 3,
@@ -32,11 +33,12 @@ namespace Games.Common
     {
         public abstract void Lunch();
         public abstract string Name { get; }
-        public void PrintGameName() { 
+        public void PrintGameName()
+        {
             Helper.PrintWarning($"Starting ({Name})");
             Thread.Sleep(2000);
             Console.Clear();
-        } 
+        }
         public void NavigateToGameMenu()
         {
             #region Before Navigate

@@ -11,9 +11,9 @@ namespace Games.Common
         private static void PrintToConsole(string msg, PrintType type, ClearType clearable)
         {
             #region Mutate Console Color and Print Error
-            if(clearable == ClearType.Enable) Console.Clear();
+            if (clearable == ClearType.Enable) Console.Clear();
 
-            Console.BackgroundColor = type == PrintType.Success ? ConsoleColor.Green : type == PrintType.Failure ? ConsoleColor.Red :  ConsoleColor.DarkYellow;
+            Console.BackgroundColor = type == PrintType.Success ? ConsoleColor.Green : type == PrintType.Failure ? ConsoleColor.Red : ConsoleColor.DarkYellow;
             Console.ForegroundColor = type != PrintType.Warning ? ConsoleColor.White : ConsoleColor.Black;
             Console.WriteLine(msg);
 
