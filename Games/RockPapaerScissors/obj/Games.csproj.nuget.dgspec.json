@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ahmadrezam\\Desktop\\CShatpPractice\\Games\\Games\\Games.csproj": {}
+    "C:\\Users\\ahmadrezam\\Desktop\\CShatpPractice\\Games\\RockPapaerScissors\\Games.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ahmadrezam\\Desktop\\CShatpPractice\\Games\\Games\\Games.csproj": {
+    "C:\\Users\\ahmadrezam\\Desktop\\CShatpPractice\\Games\\RockPapaerScissors\\Games.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ahmadrezam\\Desktop\\CShatpPractice\\Games\\Games\\Games.csproj",
+        "projectUniqueName": "C:\\Users\\ahmadrezam\\Desktop\\CShatpPractice\\Games\\RockPapaerScissors\\Games.csproj",
         "projectName": "Games",
-        "projectPath": "C:\\Users\\ahmadrezam\\Desktop\\CShatpPractice\\Games\\Games\\Games.csproj",
+        "projectPath": "C:\\Users\\ahmadrezam\\Desktop\\CShatpPractice\\Games\\RockPapaerScissors\\Games.csproj",
         "packagesPath": "C:\\Users\\ahmadrezam\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ahmadrezam\\Desktop\\CShatpPractice\\Games\\Games\\obj\\",
+        "outputPath": "C:\\Users\\ahmadrezam\\Desktop\\CShatpPractice\\Games\\RockPapaerScissors\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ahmadrezam\\AppData\\Roaming\\NuGet\\NuGet.Config",
