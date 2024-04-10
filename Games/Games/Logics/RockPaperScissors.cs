@@ -15,6 +15,12 @@ namespace Games.Logics
         NavigateToGameMenu = 0
     }
 
+    internal enum MessageType
+    {
+        Win = 1,
+        Lose = 2,
+    }
+
     class RockPaperScissors : Game
     {
         public override string Name => "Rock Paper Scissors";
@@ -89,41 +95,55 @@ namespace Games.Logics
                     else if (userChoice == Choices.Paper)
                     {
                         userScore += 1;
-                        Helper.PrintSuccess($"System: Rock, Score: {sysScore} | You: Paper, Score: {userScore}");
+                        PrintMessage(MessageType.Win, "Rock", "Paper");
                     }
                     else
                     {
                         sysScore += 1;
-                        Helper.PrintError($"System: Rock, Score: {sysScore} | You: Scissors, Score: {userScore}");
+                        PrintMessage(MessageType.Lose, "Rock", "Scissors");
                     }
                     break;
                 case Choices.Paper:
                     if (userChoice == Choices.Rock)
                     {
                         sysScore += 1;
-                        Helper.PrintError($"System: Paper, Score: {sysScore} | You: Rock, Score: {userScore}");
+                        PrintMessage(MessageType.Lose, "Paper", "Rock");
                     }
                     else if (userChoice == Choices.Paper) { Helper.PrintWarning("Same choice !"); }
                     else
                     {
                         userScore += 1;
-                        Helper.PrintSuccess($"System: Paper, Score:{sysScore} | You: Scissors, Score: {userScore}");
+                        PrintMessage(MessageType.Win, "Paper", "Scissors");
                     }
                     break;
                 case Choices.Scissors:
                     if (userChoice == Choices.Rock)
                     {
                         userScore += 1;
-                        Helper.PrintSuccess($"System: Scissors, Score: {sysScore} | You: Rock, Score: {userScore}");
+                        PrintMessage(MessageType.Win, "Scissors", "Rock");
                     }
                     else if (userChoice == Choices.Paper)
                     {
                         sysScore += 1;
-                        Helper.PrintError($"System: Scissors, Score: {sysScore} | You: Paper, Scoer: {userScore}");
+                        PrintMessage(MessageType.Lose, "Scissors", "Paper");
                     }
                     else { Helper.PrintWarning("Same choice !"); }
                     break;
 
+            }
+        }
+
+        private void PrintMessage(MessageType type, string sysChoice, string userChoice)
+        {
+            string msg = $"System: {sysChoice}, Score: {sysScore} | You: {userChoice}, Score: {userScore}";
+
+            if (type == MessageType.Win)
+            {
+                Helper.PrintSuccess(msg);
+            }
+            else
+            {
+                Helper.PrintError(msg);
             }
         }
     }
