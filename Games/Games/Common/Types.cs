@@ -10,6 +10,7 @@ namespace Games.Common
     {
         ExitGame = 0,
         RockPaperScissors = 1,
+        Palindrome = 2,
     }
 
     enum ErrorCodes

@@ -42,6 +42,12 @@ namespace Games
                     RockPaperScissors rps = new();
                     rps.Lunch();
                     return;
+
+                case InputId.Palindrome:
+                    Palindrome p = new();
+                    p.Lunch();
+                    return;
+
             }
 
         }
