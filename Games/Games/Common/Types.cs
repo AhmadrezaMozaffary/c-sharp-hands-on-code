@@ -36,14 +36,14 @@ namespace Games.Common
         public void PrintGameName()
         {
             Helper.PrintWarning($"Starting ({Name})");
-            Thread.Sleep(2000);
+            Thread.Sleep(GameLuncher.PRINT_DELAY_TIME);
             Console.Clear();
         }
         public void NavigateToGameMenu()
         {
             #region Before Navigate
             Helper.PrintWarning("Navigating...", ClearType.Disable);
-            Thread.Sleep(2000);
+            Thread.Sleep(GameLuncher.PRINT_DELAY_TIME);
             Console.Clear();
             #endregion
 
