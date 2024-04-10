@@ -11,7 +11,8 @@ namespace Games
 {
     internal class GameLuncher
     {
-        public static int PRINT_DELAY_TIME = 2000;
+        public static readonly int PRINT_DELAY_TIME = 2000;
+
         public static void Init()
         {
             try
