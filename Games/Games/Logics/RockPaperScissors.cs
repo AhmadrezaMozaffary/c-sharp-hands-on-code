@@ -88,37 +88,38 @@ namespace Games.Logics
                     }
                     else if (userChoice == Choices.Paper)
                     {
-                        Helper.PrintWarning("System: Rock, You: Paper");
                         userScore += 1;
+                        Helper.PrintSuccess($"System: Rock, Score: {sysScore} | You: Paper, Score: {userScore}");
                     }
                     else
                     {
-                        Helper.PrintWarning("System: Rock, You: Scissors");
                         sysScore += 1;
+                        Helper.PrintError($"System: Rock, Score: {sysScore} | You: Scissors, Score: {userScore}");
                     }
                     break;
                 case Choices.Paper:
                     if (userChoice == Choices.Rock)
                     {
-                        Helper.PrintWarning("System: Paper, You: Rock"); sysScore += 1;
+                        sysScore += 1;
+                        Helper.PrintError($"System: Paper, Score: {sysScore} | You: Rock, Score: {userScore}");
                     }
                     else if (userChoice == Choices.Paper) { Helper.PrintWarning("Same choice !"); }
                     else
                     {
-                        Helper.PrintWarning("System: Paper, You: Scissors");
                         userScore += 1;
+                        Helper.PrintSuccess($"System: Paper, Score:{sysScore} | You: Scissors, Score: {userScore}");
                     }
                     break;
                 case Choices.Scissors:
                     if (userChoice == Choices.Rock)
                     {
-                        Helper.PrintWarning("System: Scissors, You: Rock");
                         userScore += 1;
+                        Helper.PrintSuccess($"System: Scissors, Score: {sysScore} | You: Rock, Score: {userScore}");
                     }
                     else if (userChoice == Choices.Paper)
                     {
-                        Helper.PrintWarning("System: Scissors, You: Paper");
                         sysScore += 1;
+                        Helper.PrintError($"System: Scissors, Score: {sysScore} | You: Paper, Scoer: {userScore}");
                     }
                     else { Helper.PrintWarning("Same choice !"); }
                     break;
