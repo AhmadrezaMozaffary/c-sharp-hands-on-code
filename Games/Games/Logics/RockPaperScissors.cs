@@ -1,11 +1,6 @@
 ﻿using Games.Common;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Games.Logics
+namespace Games.Logics.RockPaperScissors
 {
     internal enum Choices
     {
@@ -24,7 +19,7 @@ namespace Games.Logics
     class RockPaperScissors : Game
     {
         public override string Name => "Rock Paper Scissors";
-        private int[]? AvailableCommands { get; set; }
+        public override int[]? AvailableCommands { get; set; }
 
         private const int WINNER_SCORE = 3;
 
@@ -54,7 +49,6 @@ namespace Games.Logics
 
         private void Init()
         {
-            Helper.Print("Enter Your Choice number");
             AvailableCommands = Helper.PrintAvailableCommands<Choices>();
 
             ApplyRules((int)Helper.GetUserInput());

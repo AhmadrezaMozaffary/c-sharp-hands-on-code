@@ -11,10 +11,10 @@ namespace Games.Common
         private static void PrintToConsole(string msg, PrintType type, ClearType clearable)
         {
             #region Mutate Console Color and Print Error
-            if (clearable == ClearType.Enable) Console.Clear();
+           if (clearable == ClearType.Enable) Console.Clear();
 
-            Console.BackgroundColor = type == PrintType.Success ? ConsoleColor.Green : type == PrintType.Failure ? ConsoleColor.Red : ConsoleColor.DarkYellow;
-            Console.ForegroundColor = type != PrintType.Warning ? ConsoleColor.White : ConsoleColor.Black;
+            Console.BackgroundColor = type == PrintType.Success ? ConsoleColor.Green : type == PrintType.Failure ? ConsoleColor.Red : type == PrintType.Info ? ConsoleColor.Cyan : ConsoleColor.DarkYellow;
+            Console.ForegroundColor = type != PrintType.Warning && type != PrintType.Info ? ConsoleColor.White : ConsoleColor.Black;
             Console.WriteLine(msg);
 
             Console.ResetColor();
@@ -35,6 +35,11 @@ namespace Games.Common
             PrintToConsole(msg, PrintType.Warning, clearable);
         }
 
+        public static void PrintInfo(string msg, ClearType clearable = ClearType.Enable)
+        {
+            PrintToConsole(msg, PrintType.Info, clearable);
+        }
+
         public static void Print(string msg)
         {
             Console.WriteLine(msg);
@@ -44,11 +49,14 @@ namespace Games.Common
         {
             int[] commandsArr = (int[])Enum.GetValues(typeof(T));
             Print("------------------------");
+            PrintInfo("Enter Command number to start", ClearType.Disable);
+            Print("------------------------");
             foreach (int cmd in commandsArr)
             {
                 string enumName = Enum.GetName(typeof(T), cmd);
                 Print(cmd + ") - " + enumName);
             }
+            Print("------------------------");
             return commandsArr;
         }
 

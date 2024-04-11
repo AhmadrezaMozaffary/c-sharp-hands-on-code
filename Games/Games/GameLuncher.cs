@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using DocumentFormat.OpenXml.ExtendedProperties;
-using Games.Common;
+﻿using Games.Common;
+
 using Games.Logics;
+using Games.Logics.Palindrome;
+using Games.Logics.RockPaperScissors;
 
 namespace Games
 {
@@ -17,11 +14,10 @@ namespace Games
         {
             try
             {
-                int userInput;
 
                 PrintStarterTexts();
 
-                userInput = Helper.GetUserInput();
+                int userInput = Helper.GetUserInput();
 
                 if (!GameValidator.Check(userInput)) return;
 
@@ -36,17 +32,21 @@ namespace Games
 
         private static void LunchGameBy(InputId input)
         {
+            Console.WriteLine(input);
             switch (input)
             {
                 case InputId.RockPaperScissors:
                     RockPaperScissors rps = new();
                     rps.Lunch();
-                    return;
+                    break;
 
                 case InputId.Palindrome:
                     Palindrome p = new();
                     p.Lunch();
-                    return;
+                    break;
+
+                default:
+                    throw new Exception("Invalid input. ");
 
             }
 
@@ -54,17 +54,14 @@ namespace Games
 
         public static void PrintStarterTexts()
         {
-            Helper.Print("Enter Command number to start");
             Helper.PrintAvailableCommands<InputId>();
-
         }
-
 
 
         public static void Exit()
         {
             Helper.PrintWarning("Game will be closed after couple of seconds...");
-            Thread.Sleep(3000);
+            Thread.Sleep(GameLuncher.PRINT_DELAY_TIME);
             Helper.PrintSuccess("Game Closed.");
             Environment.Exit(0);
         }

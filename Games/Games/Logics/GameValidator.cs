@@ -7,15 +7,6 @@ namespace Games.Logics
     {
         public static bool Check(int gameId)
         {
-            if (IsValid(gameId))
-                return true;
-            else
-                return false;
-
-        }
-
-        private static bool IsValid(int gameId)
-        {
             if ((int)InputId.ExitGame == gameId)
             {
                 GameLuncher.Exit();
@@ -26,26 +17,13 @@ namespace Games.Logics
 
             if (!gameIdEnumArray.Contains(gameId))
             {
-                ValidationError(ErrorCodes.InvalidGameId);
-                return false;
+                throw new Exception("Invalid input id.");
             }
             else
             {
                 return true;
             }
 
-        }
-
-        private static void ValidationError(ErrorCodes errCode)
-        {
-            switch (errCode)
-            {
-                case ErrorCodes.InvalidGameId:
-                    Helper.PrintError("Invalid input id.");
-                    break;
-
-            }
-            GameLuncher.Init();
         }
 
     }
