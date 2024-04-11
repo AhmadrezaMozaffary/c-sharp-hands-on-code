@@ -9,7 +9,7 @@ namespace Games.Logics.Animal_Fight.DB
 {
     class AppDatabase
     {
-        public string DbPath { get => @"C:\Users\ahmadrezam\Desktop\CShatpPractice\Games\Games\Logics\Animal Fight\DB\Database.txt"; }
+        public string DbPath { get => @"C:\Users\ahmadrezam\Desktop\CShatpPractice\Games\Games\Logics\AnimalFight\DB\Database.txt"; }
 
         public Fighter[] GetFighters()
         {

@@ -1,7 +1,6 @@
 ﻿using System;
-using Games.Common;
 
-namespace Games.Logics
+namespace Games.Common
 {
     static class GameValidator
     {
@@ -13,7 +12,7 @@ namespace Games.Logics
                 return false;
             }
 
-            int[] gameIdEnumArray = Helper.PrintAvailableCommands<InputId>() ;
+            int[] gameIdEnumArray = Helper.PrintAvailableCommands<InputId>();
 
             if (!gameIdEnumArray.Contains(gameId))
             {

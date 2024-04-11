@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="Logics\Animal Fight\DB\Database.txt">
+    <None Update="Logics\AnimalFight\DB\Database.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
