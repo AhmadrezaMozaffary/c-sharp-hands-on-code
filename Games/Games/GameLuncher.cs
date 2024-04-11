@@ -1,6 +1,7 @@
 ﻿using Games.Common;
 
 using Games.Logics;
+using Games.Logics.Animal_Fight;
 using Games.Logics.Palindrome;
 using Games.Logics.RockPaperScissors;
 
@@ -36,13 +37,18 @@ namespace Games
             switch (input)
             {
                 case InputId.RockPaperScissors:
-                    RockPaperScissors rps = new();
+                    Game rps = new RockPaperScissors();
                     rps.Lunch();
                     break;
 
                 case InputId.Palindrome:
-                    Palindrome p = new();
+                    Game p = new Palindrome();
                     p.Lunch();
+                    break;
+
+                case InputId.AnimalFight:
+                    Game af = new AnimalFight();
+                    af.Lunch();
                     break;
 
                 default:

@@ -11,6 +11,7 @@ namespace Games.Common
         ExitGame = 0,
         RockPaperScissors = 1,
         Palindrome = 2,
+        AnimalFight = 3,
     }
 
     enum PrintType

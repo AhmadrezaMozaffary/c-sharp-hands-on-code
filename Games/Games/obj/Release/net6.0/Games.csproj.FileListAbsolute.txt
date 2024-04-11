@@ -13,3 +13,8 @@ C:\Users\ahmadrezam\Desktop\CShatpPractice\Games\Games\obj\Release\net6.0\refint
 C:\Users\ahmadrezam\Desktop\CShatpPractice\Games\Games\obj\Release\net6.0\Games.pdb
 C:\Users\ahmadrezam\Desktop\CShatpPractice\Games\Games\obj\Release\net6.0\Games.genruntimeconfig.cache
 C:\Users\ahmadrezam\Desktop\CShatpPractice\Games\Games\obj\Release\net6.0\ref\Games.dll
+C:\Users\ahmadrezam\Desktop\CShatpPractice\Games\Games\bin\Release\net6.0\DocumentFormat.OpenXml.dll
+C:\Users\ahmadrezam\Desktop\CShatpPractice\Games\Games\bin\Release\net6.0\DocumentFormat.OpenXml.Framework.dll
+C:\Users\ahmadrezam\Desktop\CShatpPractice\Games\Games\bin\Release\net6.0\System.IO.Packaging.dll
+C:\Users\ahmadrezam\Desktop\CShatpPractice\Games\Games\obj\Release\net6.0\Games.csproj.CopyComplete
+C:\Users\ahmadrezam\Desktop\CShatpPractice\Games\Games\bin\Release\net6.0\Logics\Animal Fight\DB\Database.txt

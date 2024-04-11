@@ -1,0 +1,9 @@
+﻿Lion,10
+Panda,9
+Cat,6
+Dog,7
+Wolf,8
+Cheetah,10 
+Snake,4
+Goorilla,10
+Elephant,8
