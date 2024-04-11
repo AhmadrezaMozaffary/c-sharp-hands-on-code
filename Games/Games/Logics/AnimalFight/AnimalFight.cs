@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.Xml.Serialization;
 using Games.Common;
 using Games.Logics.Animal_Fight.DB;
+using Games.Logics.AnimalFight.Models;
 
 namespace Games.Logics.Animal_Fight
 {
@@ -53,6 +54,8 @@ namespace Games.Logics.Animal_Fight
 
             foreach (Fighter fighter in fighters)
                 fighter.Introduce();
+
+            Helper.GetUserInput(); //Will be fixed 
         }
     }
 }

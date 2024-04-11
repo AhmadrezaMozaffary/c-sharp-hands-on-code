@@ -4,12 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
+using Games.Logics.AnimalFight.Models;
 
 namespace Games.Logics.Animal_Fight.DB
 {
     class AppDatabase
     {
-        public string DbPath { get => @"C:\Users\ahmadrezam\Desktop\CShatpPractice\Games\Games\Logics\AnimalFight\DB\Database.txt"; }
+        private string DbPath { get => @"C:\Users\ahmadrezam\Desktop\CShatpPractice\Games\Games\Logics\AnimalFight\DB\Database.txt"; }
 
         public Fighter[] GetFighters()
         {
