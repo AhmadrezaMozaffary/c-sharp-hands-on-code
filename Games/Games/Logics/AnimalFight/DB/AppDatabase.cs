@@ -12,12 +12,23 @@ namespace Games.Logics.Animal_Fight.DB
     {
         private string DbPath { get => @"C:\Users\ahmadrezam\Desktop\CShatpPractice\Games\Games\Logics\AnimalFight\DB\Database.txt"; }
 
+
+        public Team GetRandomTeam(string teamName)
+        {
+            Fighter[] fighters = GetFighters();
+            int firstRandomNumber = new Random().Next(fighters.Length);
+            int secondRandomNumber = new Random().Next(fighters.Length);
+
+            return new Team(teamName, fighters[firstRandomNumber], fighters[secondRandomNumber]);
+        }
+
         public Fighter[] GetFighters()
         {
             string[] dbLines = File.ReadAllLines(DbPath);
             Fighter[] fighters = new Fighter[dbLines.Length];
 
-            for(int i = 0; i < dbLines.Length; i++) {
+            for (int i = 0; i < dbLines.Length; i++)
+            {
                 fighters[i] = CreateFighter(dbLines[i]);
             }
 

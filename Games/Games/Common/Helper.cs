@@ -45,11 +45,11 @@ namespace Games.Common
             Console.WriteLine(msg);
         }
 
-        public static int[] PrintAvailableCommands<T>()
+        public static int[] PrintAvailableCommands<T>(string msg = "Enter Command number to start")
         {
             int[] commandsArr = (int[])Enum.GetValues(typeof(T));
             Print("------------------------");
-            PrintInfo("Enter Command number to start", ClearType.Disable);
+            PrintInfo(msg, ClearType.Disable);
             Print("------------------------");
             foreach (int cmd in commandsArr)
             {

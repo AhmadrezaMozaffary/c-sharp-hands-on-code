@@ -20,7 +20,12 @@ namespace Games.Logics.AnimalFight.Models
 
         public void Introduce()
         {
-            Helper.Print($"My name is {_name}");
+            Helper.Print(_name);
+        }
+
+        public int GetPower()
+        {
+            return _power;
         }
     }
 }
