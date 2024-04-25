@@ -17,6 +17,20 @@ body {
   margin-bottom: 60px;
 }
 
+a {
+    text-decoration: none;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
 .pd-image {
     width: 1000px;
 }

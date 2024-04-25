@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "Friends List";
+    List<FriendModel> friends = ViewBag.Friends;
+}
+
+<div>
+<table>
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Lastname</th>
+        <th>Phone number</th>
+        <th>Detail</th>
+    </tr>
+
+    @for(int i = 0; i < friends.Count; i++)
+    {
+        <tr>
+            <th>@friends[i].Id</th>
+            <th>@friends[i].Name.Split(" ")[0]</th>
+            <th>@friends[i].Name.Split(" ")[1]</th>
+            <th>@friends[i].PhoneNumber</th>
+            <th><a asp-controller="Friend" asp-action="Detail">Show Detail</a></th>
+        </tr>
+    }
+</table>
+</div>

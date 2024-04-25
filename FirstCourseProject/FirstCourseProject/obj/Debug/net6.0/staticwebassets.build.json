@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "U38E/CQhyh/URypEjQwp/Ms5dRJDH2dDoJrc9u7/axc=",
+  "Hash": "5+yFtM7rIciMIuNRa569Fu9LUOuHmabN+y8Cp5wfrxc=",
   "Source": "FirstCourseProject",
   "BasePath": "_content/FirstCourseProject",
   "Mode": "Default",
@@ -85,12 +85,12 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\ahmadrezam\\Desktop\\CShatpPractice\\FirstCourseProject\\FirstCourseProject\\wwwroot\\img\\project-detail.PNG",
+      "Identity": "C:\\Users\\ahmadrezam\\Desktop\\CShatpPractice\\FirstCourseProject\\FirstCourseProject\\wwwroot\\img\\project-detail.jpg",
       "SourceId": "FirstCourseProject",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ahmadrezam\\Desktop\\CShatpPractice\\FirstCourseProject\\FirstCourseProject\\wwwroot\\",
       "BasePath": "_content/FirstCourseProject",
-      "RelativePath": "img/project-detail.PNG",
+      "RelativePath": "img/project-detail.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -99,7 +99,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\project-detail.PNG"
+      "OriginalItemSpec": "wwwroot\\img\\project-detail.jpg"
     },
     {
       "Identity": "C:\\Users\\ahmadrezam\\Desktop\\CShatpPractice\\FirstCourseProject\\FirstCourseProject\\wwwroot\\js\\site.js",
