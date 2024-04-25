@@ -23,6 +23,12 @@ namespace FirstCourseProject.Controllers
             return View();
         }
 
+        public IActionResult ProjectDetail()
+        {
+            return View();
+        }
+
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
