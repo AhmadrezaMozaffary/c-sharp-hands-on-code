@@ -16,12 +16,16 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\ahmadrezam\Desktop\CShatpPractice\Rooydaad.Web\Rooydaad.Web
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/ahmadrezam/Desktop/CShatpPractice/Rooydaad.Web/Rooydaad.Web/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+[C:/Users/ahmadrezam/Desktop/CShatpPractice/Rooydaad.Web/Rooydaad.Web/Views/CompanyInfo/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFueUluZm9cUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ahmadrezam/Desktop/CShatpPractice/Rooydaad.Web/Rooydaad.Web/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[C:/Users/ahmadrezam/Desktop/CShatpPractice/Rooydaad.Web/Rooydaad.Web/Views/CompanyInfo/TermsAndConditions.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFueUluZm9cVGVybXNBbmRDb25kaXRpb25zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmadrezam/Desktop/CShatpPractice/Rooydaad.Web/Rooydaad.Web/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ahmadrezam/Desktop/CShatpPractice/Rooydaad.Web/Rooydaad.Web/Views/Shared/Error.cshtml]
