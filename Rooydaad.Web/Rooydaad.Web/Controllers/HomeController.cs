@@ -19,7 +19,7 @@ namespace Rooydaad.Web.Controllers
         }
 
         public IActionResult Index()
-        {
+        { 
             return View();
         }
 
