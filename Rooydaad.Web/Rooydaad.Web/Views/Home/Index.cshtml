@@ -64,17 +64,17 @@
             <div class="col-xl-6">
                 <h2 class="mb-4">Subscribe in our news letter!</h2>
               
-                <form>
+                <form method="post" action="/EmailSubscription">
                     <!-- Email address input-->
                     <div class="row">
                         <div class="col">
-                            <input class="form-control form-control-lg" id="emailAddressNewsLetter" type="email" placeholder="Email Address" />
+                            <input class="form-control form-control-lg" name="EmailAddress" id="emailAddressNewsLetter" type="email" placeholder="Email Address" />
                         </div>
                         <div class="col-auto">
-                            <button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit">Subscribe</button>
+                            <button class="btn btn-primary btn-lg" id="submitButton" type="submit">Subscribe</button>
                         </div>
                     </div>
-                
+                    <p>@ViewBag.Message</p>
                 </form>
             </div>
         </div>
