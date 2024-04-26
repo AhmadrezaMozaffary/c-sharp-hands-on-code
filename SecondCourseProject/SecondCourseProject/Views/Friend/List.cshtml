@@ -1,27 +1,41 @@
 ﻿@{
     ViewData["Title"] = "Friends List";
-    List<FriendModel> friends = ViewBag.Friends;
+    @model List<FriendModel>;
+
 }
 
 <div>
-<table>
-    <tr>
-        <th>Id</th>
-        <th>Name</th>
-        <th>Lastname</th>
-        <th>Phone number</th>
-        <th>Detail</th>
-    </tr>
-
-    @for(int i = 0; i < friends.Count; i++)
+    @if (Model.Count == 0)
     {
-        <tr>
-            <th>@friends[i].Id</th>
-            <th>@friends[i].Name.Split(" ")[0]</th>
-            <th>@friends[i].Name.Split(" ")[1]</th>
-            <th>@friends[i].PhoneNumber</th>
-            <th><a asp-controller="Friend" asp-action="Details" asp-route-id="@friends[i].Id">Show ➡</a></th>
-        </tr>
+        <h3 style="display:inline">List is empty :( so </h3>
+        <a class="text-lg-center" asp-controller="Friend" asp-action="AddNew">🆕 Add</a>
+
     }
-</table>
+    else
+    {
+        <table>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Lastname</th>
+                <th>Phone number</th>
+                <th>Detail</th>
+            </tr>
+
+            @foreach (FriendModel friend in Model)
+            {
+                <tr>
+                    <th>@friend.Id</th>
+                    <th>@friend.Name.Split(" ")[0]</th>
+                    <th>@friend.Name.Split(" ")[1]</th>
+                    <th>@friend.PhoneNumber</th>
+                    <th><a asp-controller="Friend" asp-action="Details" asp-route-id="@friend.Id">Show ➡</a></th>
+                </tr>
+            }
+
+        </table>
+        <br />
+        <a asp-controller="Friend" asp-action="AddNew">🆕 Add</a>
+    }
+
 </div>

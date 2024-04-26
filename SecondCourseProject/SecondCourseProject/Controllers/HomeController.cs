@@ -1,8 +1,8 @@
-﻿using FirstCourseProject.Models;
+﻿using SecondCourseProject.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
-namespace FirstCourseProject.Controllers
+namespace SecondCourseProject.Controllers
 {
     public class HomeController : Controller
     {
