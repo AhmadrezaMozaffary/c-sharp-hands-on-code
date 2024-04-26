@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\ahmadrezam\Desktop\CShatpPractice\Rooydaad.Web\Rooydaad.Web
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/ahmadrezam/Desktop/CShatpPractice/Rooydaad.Web/Rooydaad.Web/Views/Auth/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/ahmadrezam/Desktop/CShatpPractice/Rooydaad.Web/Rooydaad.Web/Views/CompanyInfo/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFueUluZm9cUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
