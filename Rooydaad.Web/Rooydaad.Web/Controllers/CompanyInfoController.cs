@@ -2,7 +2,7 @@
 
 namespace Rooydaad.Web.Controllers
 {
-    public class CompanyInfo : Controller
+    public class CompanyInfoController : Controller
     {
         public IActionResult Privacy()
         {

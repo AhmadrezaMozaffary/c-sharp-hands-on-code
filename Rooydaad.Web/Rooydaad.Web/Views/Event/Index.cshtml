@@ -1,0 +1,29 @@
+﻿@{
+    @model List<Event>
+    ViewData["title"] = "Events";
+    Layout = "_SubLayout";
+
+
+}
+
+<section class="testimonials text-center bg-light">
+    <div class="container">
+        <h2 class="mb-5">Current Events...</h2>
+        <div class="row">
+            @foreach (Event e in Model)
+            {
+                <div class="col-lg-4 my-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="@e.Image" class="card-img-top" alt="@e.Name">
+                        <div class="card-body">
+                            <h5 class="card-title">@e.Name</h5>
+                            <p class="card-text">@e.Description</p>
+                            <a href="#" class="btn btn-primary">Details</a>
+                        </div>
+                    </div>
+
+                </div>
+            }
+        </div>
+    </div>
+</section>
