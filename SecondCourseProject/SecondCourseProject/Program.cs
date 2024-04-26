@@ -1,9 +1,16 @@
+using SecondCourseProject.Data;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
+
+app.Map("/total-friends", (context) =>
+{
+    context.Run(async (httpContext) => { await httpContext.Response.WriteAsync($"Friends : {DataBase.GetFriendsList().Count}"); });
+});
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
