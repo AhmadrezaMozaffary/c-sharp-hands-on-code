@@ -20,7 +20,7 @@
             <th>@friends[i].Name.Split(" ")[0]</th>
             <th>@friends[i].Name.Split(" ")[1]</th>
             <th>@friends[i].PhoneNumber</th>
-            <th><a asp-controller="Friend" asp-action="Detail">Show Detail</a></th>
+            <th><a asp-controller="Friend" asp-action="Details" asp-route-id="@friends[i].Id">Show ➡</a></th>
         </tr>
     }
 </table>

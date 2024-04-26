@@ -1,1 +1,12 @@
-﻿
+﻿@{
+    FriendModel currentFriend = ViewBag.CurrentFriend;
+}
+
+<a asp-controller="Friend" asp-action="List" >⬅ Back</a>
+
+
+<div class="text-center">
+    <h1 class="display-6">The detail for @currentFriend.Name </h1>
+    <img  src="@currentFriend.Avatar" alt="@currentFriend.Name" />
+    <p>Phone number: @currentFriend.PhoneNumber</p>
+</div>

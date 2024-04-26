@@ -34,3 +34,9 @@ tr:nth-child(even) {
 .pd-image {
     width: 1000px;
 }
+
+
+.fd-image {
+    width: 1000px;
+    height: 1200px;
+}

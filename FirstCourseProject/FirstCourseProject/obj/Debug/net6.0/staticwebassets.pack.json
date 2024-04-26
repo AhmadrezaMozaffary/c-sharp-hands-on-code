@@ -13,6 +13,26 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\ahmadrezam\\Desktop\\CShatpPractice\\FirstCourseProject\\FirstCourseProject\\wwwroot\\img\\1.jpg",
+      "PackagePath": "staticwebassets\\img\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ahmadrezam\\Desktop\\CShatpPractice\\FirstCourseProject\\FirstCourseProject\\wwwroot\\img\\2.jpg",
+      "PackagePath": "staticwebassets\\img\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ahmadrezam\\Desktop\\CShatpPractice\\FirstCourseProject\\FirstCourseProject\\wwwroot\\img\\3.jpg",
+      "PackagePath": "staticwebassets\\img\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ahmadrezam\\Desktop\\CShatpPractice\\FirstCourseProject\\FirstCourseProject\\wwwroot\\img\\4.jpg",
+      "PackagePath": "staticwebassets\\img\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ahmadrezam\\Desktop\\CShatpPractice\\FirstCourseProject\\FirstCourseProject\\wwwroot\\img\\5.jpg",
+      "PackagePath": "staticwebassets\\img\\5.jpg"
+    },
+    {
       "Id": "C:\\Users\\ahmadrezam\\Desktop\\CShatpPractice\\FirstCourseProject\\FirstCourseProject\\wwwroot\\img\\project-detail.jpg",
       "PackagePath": "staticwebassets\\img\\project-detail.jpg"
     },
