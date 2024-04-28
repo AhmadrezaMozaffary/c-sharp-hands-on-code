@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ahmadrezam\\Desktop\\CShatpPractice\\Rooydaad.Web\\Rooydaad.Web\\Rooydaad.Web.csproj": {}
+    "D:\\CSpractice\\c-sharp-hands-on-code\\Rooydaad.Web\\Rooydaad.Web\\Rooydaad.Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ahmadrezam\\Desktop\\CShatpPractice\\Rooydaad.Web\\Rooydaad.Web\\Rooydaad.Web.csproj": {
+    "D:\\CSpractice\\c-sharp-hands-on-code\\Rooydaad.Web\\Rooydaad.Web\\Rooydaad.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ahmadrezam\\Desktop\\CShatpPractice\\Rooydaad.Web\\Rooydaad.Web\\Rooydaad.Web.csproj",
+        "projectUniqueName": "D:\\CSpractice\\c-sharp-hands-on-code\\Rooydaad.Web\\Rooydaad.Web\\Rooydaad.Web.csproj",
         "projectName": "Rooydaad.Web",
-        "projectPath": "C:\\Users\\ahmadrezam\\Desktop\\CShatpPractice\\Rooydaad.Web\\Rooydaad.Web\\Rooydaad.Web.csproj",
+        "projectPath": "D:\\CSpractice\\c-sharp-hands-on-code\\Rooydaad.Web\\Rooydaad.Web\\Rooydaad.Web.csproj",
         "packagesPath": "C:\\Users\\ahmadrezam\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ahmadrezam\\Desktop\\CShatpPractice\\Rooydaad.Web\\Rooydaad.Web\\obj\\",
+        "outputPath": "D:\\CSpractice\\c-sharp-hands-on-code\\Rooydaad.Web\\Rooydaad.Web\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ahmadrezam\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -9,53 +9,53 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SecondCourseProject
 build_property.RootNamespace = SecondCourseProject
-build_property.ProjectDir = C:\Users\ahmadrezam\Desktop\CShatpPractice\SecondCourseProject\SecondCourseProject\
+build_property.ProjectDir = D:\CSpractice\c-sharp-hands-on-code\SecondCourseProject\SecondCourseProject\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\ahmadrezam\Desktop\CShatpPractice\SecondCourseProject\SecondCourseProject
+build_property.MSBuildProjectDirectory = D:\CSpractice\c-sharp-hands-on-code\SecondCourseProject\SecondCourseProject
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/ahmadrezam/Desktop/CShatpPractice/SecondCourseProject/SecondCourseProject/Views/Friend/AddNew.cshtml]
+[D:/CSpractice/c-sharp-hands-on-code/SecondCourseProject/SecondCourseProject/Views/Friend/AddNew.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRnJpZW5kXEFkZE5ldy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ahmadrezam/Desktop/CShatpPractice/SecondCourseProject/SecondCourseProject/Views/Friend/Details.cshtml]
+[D:/CSpractice/c-sharp-hands-on-code/SecondCourseProject/SecondCourseProject/Views/Friend/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRnJpZW5kXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ahmadrezam/Desktop/CShatpPractice/SecondCourseProject/SecondCourseProject/Views/Friend/List.cshtml]
+[D:/CSpractice/c-sharp-hands-on-code/SecondCourseProject/SecondCourseProject/Views/Friend/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRnJpZW5kXExpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ahmadrezam/Desktop/CShatpPractice/SecondCourseProject/SecondCourseProject/Views/Home/Index.cshtml]
+[D:/CSpractice/c-sharp-hands-on-code/SecondCourseProject/SecondCourseProject/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ahmadrezam/Desktop/CShatpPractice/SecondCourseProject/SecondCourseProject/Views/Home/Privacy.cshtml]
+[D:/CSpractice/c-sharp-hands-on-code/SecondCourseProject/SecondCourseProject/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ahmadrezam/Desktop/CShatpPractice/SecondCourseProject/SecondCourseProject/Views/Home/ProjectDetail.cshtml]
+[D:/CSpractice/c-sharp-hands-on-code/SecondCourseProject/SecondCourseProject/Views/Home/ProjectDetail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9qZWN0RGV0YWlsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ahmadrezam/Desktop/CShatpPractice/SecondCourseProject/SecondCourseProject/Views/Shared/Error.cshtml]
+[D:/CSpractice/c-sharp-hands-on-code/SecondCourseProject/SecondCourseProject/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ahmadrezam/Desktop/CShatpPractice/SecondCourseProject/SecondCourseProject/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/CSpractice/c-sharp-hands-on-code/SecondCourseProject/SecondCourseProject/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ahmadrezam/Desktop/CShatpPractice/SecondCourseProject/SecondCourseProject/Views/_ViewImports.cshtml]
+[D:/CSpractice/c-sharp-hands-on-code/SecondCourseProject/SecondCourseProject/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ahmadrezam/Desktop/CShatpPractice/SecondCourseProject/SecondCourseProject/Views/_ViewStart.cshtml]
+[D:/CSpractice/c-sharp-hands-on-code/SecondCourseProject/SecondCourseProject/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ahmadrezam/Desktop/CShatpPractice/SecondCourseProject/SecondCourseProject/Views/Shared/_Layout.cshtml]
+[D:/CSpractice/c-sharp-hands-on-code/SecondCourseProject/SecondCourseProject/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-z9s4jvlyz4

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uXj4gYVvYh+PJeC38Xh4TR2lhgnq2z+WViWkgP2d3Dp73oJA/vRDEmormZ9mYRbKn/PGy8YsblbeAiL8EInwNA==",
+  "dgSpecHash": "kkRFB3KtEYwQ5AaJMtMERDcdEZQYxuL1chrzlRCtKMS9/uf/rkn/K00CCXG6U/yvjqGYCltU6e2E+UalumdxsQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ahmadrezam\\Desktop\\CShatpPractice\\Rooydaad.Web\\Rooydaad.Web\\Rooydaad.Web.csproj",
+  "projectFilePath": "D:\\CSpractice\\c-sharp-hands-on-code\\Rooydaad.Web\\Rooydaad.Web\\Rooydaad.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ahmadrezam\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\ahmadrezam\\.nuget\\packages\\microsoft.aspnetcore.diagnostics.entityframeworkcore\\6.0.0\\microsoft.aspnetcore.diagnostics.entityframeworkcore.6.0.0.nupkg.sha512",

@@ -9,65 +9,65 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Rooydaad.Web
 build_property.RootNamespace = Rooydaad.Web
-build_property.ProjectDir = C:\Users\ahmadrezam\Desktop\CShatpPractice\Rooydaad.Web\Rooydaad.Web\
+build_property.ProjectDir = D:\CSpractice\c-sharp-hands-on-code\Rooydaad.Web\Rooydaad.Web\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\ahmadrezam\Desktop\CShatpPractice\Rooydaad.Web\Rooydaad.Web
+build_property.MSBuildProjectDirectory = D:\CSpractice\c-sharp-hands-on-code\Rooydaad.Web\Rooydaad.Web
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/ahmadrezam/Desktop/CShatpPractice/Rooydaad.Web/Rooydaad.Web/Views/Auth/Login.cshtml]
+[D:/CSpractice/c-sharp-hands-on-code/Rooydaad.Web/Rooydaad.Web/Views/Auth/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ahmadrezam/Desktop/CShatpPractice/Rooydaad.Web/Rooydaad.Web/Views/CompanyInfo/Privacy.cshtml]
+[D:/CSpractice/c-sharp-hands-on-code/Rooydaad.Web/Rooydaad.Web/Views/CompanyInfo/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFueUluZm9cUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ahmadrezam/Desktop/CShatpPractice/Rooydaad.Web/Rooydaad.Web/Views/CompanyInfo/TermsAndConditions.cshtml]
+[D:/CSpractice/c-sharp-hands-on-code/Rooydaad.Web/Rooydaad.Web/Views/CompanyInfo/TermsAndConditions.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFueUluZm9cVGVybXNBbmRDb25kaXRpb25zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ahmadrezam/Desktop/CShatpPractice/Rooydaad.Web/Rooydaad.Web/Views/Event/Index.cshtml]
+[D:/CSpractice/c-sharp-hands-on-code/Rooydaad.Web/Rooydaad.Web/Views/Event/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ahmadrezam/Desktop/CShatpPractice/Rooydaad.Web/Rooydaad.Web/Views/Home/Index.cshtml]
+[D:/CSpractice/c-sharp-hands-on-code/Rooydaad.Web/Rooydaad.Web/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ahmadrezam/Desktop/CShatpPractice/Rooydaad.Web/Rooydaad.Web/Views/Shared/Error.cshtml]
+[D:/CSpractice/c-sharp-hands-on-code/Rooydaad.Web/Rooydaad.Web/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ahmadrezam/Desktop/CShatpPractice/Rooydaad.Web/Rooydaad.Web/Views/Shared/_Footer.cshtml]
+[D:/CSpractice/c-sharp-hands-on-code/Rooydaad.Web/Rooydaad.Web/Views/Shared/_Footer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Gb290ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ahmadrezam/Desktop/CShatpPractice/Rooydaad.Web/Rooydaad.Web/Views/Shared/_Header.cshtml]
+[D:/CSpractice/c-sharp-hands-on-code/Rooydaad.Web/Rooydaad.Web/Views/Shared/_Header.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9IZWFkZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ahmadrezam/Desktop/CShatpPractice/Rooydaad.Web/Rooydaad.Web/Views/Shared/_Layout.cshtml]
+[D:/CSpractice/c-sharp-hands-on-code/Rooydaad.Web/Rooydaad.Web/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ahmadrezam/Desktop/CShatpPractice/Rooydaad.Web/Rooydaad.Web/Views/Shared/_Navbar.cshtml]
+[D:/CSpractice/c-sharp-hands-on-code/Rooydaad.Web/Rooydaad.Web/Views/Shared/_Navbar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9OYXZiYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ahmadrezam/Desktop/CShatpPractice/Rooydaad.Web/Rooydaad.Web/Views/Shared/_SubLayout.cshtml]
+[D:/CSpractice/c-sharp-hands-on-code/Rooydaad.Web/Rooydaad.Web/Views/Shared/_SubLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TdWJMYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ahmadrezam/Desktop/CShatpPractice/Rooydaad.Web/Rooydaad.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/CSpractice/c-sharp-hands-on-code/Rooydaad.Web/Rooydaad.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ahmadrezam/Desktop/CShatpPractice/Rooydaad.Web/Rooydaad.Web/Views/_ViewImports.cshtml]
+[D:/CSpractice/c-sharp-hands-on-code/Rooydaad.Web/Rooydaad.Web/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ahmadrezam/Desktop/CShatpPractice/Rooydaad.Web/Rooydaad.Web/Views/_ViewStart.cshtml]
+[D:/CSpractice/c-sharp-hands-on-code/Rooydaad.Web/Rooydaad.Web/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
