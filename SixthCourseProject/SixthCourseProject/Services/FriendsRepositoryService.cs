@@ -1,13 +1,13 @@
-﻿using FithCourseProject.Data.Context;
-using SecondCourseProject.Models;
+﻿using SixthCourseProject.Data.Context;
+using SixthCourseProject.Models;
 
-namespace FithCourseProject.Services
+namespace SixthCourseProject.Services
 {
     public class FriendsRepositoryService : IFriendsRepositoryService
     {
-        FifthDbContext _dbContext;
+        SixthDbContext _dbContext;
 
-        public FriendsRepositoryService(FifthDbContext dbContext)
+        public FriendsRepositoryService(SixthDbContext dbContext)
         {
             _dbContext = dbContext;
         }

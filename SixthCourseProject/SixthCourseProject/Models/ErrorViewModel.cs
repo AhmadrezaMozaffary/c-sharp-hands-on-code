@@ -1,4 +1,4 @@
-namespace SecondCourseProject.Models
+namespace SixthCourseProject.Models
 {
     public class ErrorViewModel
     {

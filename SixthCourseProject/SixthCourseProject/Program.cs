@@ -1,5 +1,5 @@
-using FithCourseProject.Data.Context;
-using FithCourseProject.Services;
+using SixthCourseProject.Data.Context;
+using SixthCourseProject.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -9,7 +9,7 @@ var Configuration = builder.Configuration;
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-builder.Services.AddEntityFrameworkSqlServer().AddDbContext<FifthDbContext>(config =>
+builder.Services.AddEntityFrameworkSqlServer().AddDbContext<SixthDbContext>(config =>
 {
     config.UseSqlServer(Configuration.GetConnectionString("Default"));
 });

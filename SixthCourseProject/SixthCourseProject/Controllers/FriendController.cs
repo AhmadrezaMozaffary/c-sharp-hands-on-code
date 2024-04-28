@@ -1,8 +1,8 @@
-﻿using SecondCourseProject.Models;
+﻿using SixthCourseProject.Models;
 using Microsoft.AspNetCore.Mvc;
-using FithCourseProject.Services;
+using SixthCourseProject.Services;
 
-namespace SecondCourseProject.Controllers
+namespace SixthCourseProject.Controllers
 {
     public class FriendController : Controller
     {

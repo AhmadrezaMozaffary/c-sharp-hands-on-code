@@ -1,6 +1,6 @@
-﻿using SecondCourseProject.Models;
+﻿using SixthCourseProject.Models;
 
-namespace FithCourseProject.Services
+namespace SixthCourseProject.Services
 {
     public interface IFriendsRepositoryService
     {
