@@ -1,0 +1,45 @@
+﻿@{
+    ViewData["Title"] = "Friends List";
+    @model List<FriendModel>;
+
+}
+
+<div>
+    <a style="display:block" href="/total-friends">Total</a>
+
+    @if (Model.Count == 0)
+    {
+        <h3 style="display:inline">List is empty :( so </h3>
+        <a class="text-lg-center" asp-controller="Friend" asp-action="AddNew">🆕 Add</a>
+
+    }
+    else
+    {
+        <table>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Lastname</th>
+                <th>Phone number</th>
+                <th>Detail</th>
+                <th>Action(s)</th>
+            </tr>
+
+            @foreach (FriendModel friend in Model)
+            {
+                <tr>
+                    <th>@friend.Id</th>
+                    <th>@friend.Name.Split(" ")[0]</th>
+                    <th>@friend.Name.Split(" ")[1]</th>
+                    <th>@friend.PhoneNumber</th>
+                    <th><a asp-controller="Friend" asp-action="Details" asp-route-id="@friend.Id">Show ➡</a></th>
+                    <th><a asp-controller="Friend" asp-action="Delete" asp-route-id="@friend.Id">Delete ❌</a></th>
+                </tr>
+            }
+
+        </table>
+        <br />
+        <a asp-controller="Friend" asp-action="AddNew">🆕 Add</a>
+    }
+
+</div>
