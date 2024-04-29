@@ -6,6 +6,8 @@ var builder = WebApplication.CreateBuilder(args);
 
 var Configuration = builder.Configuration;
 
+builder.Services.AddSwaggerGen();
+
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
@@ -17,6 +19,9 @@ builder.Services.AddEntityFrameworkSqlServer().AddDbContext<SixthDbContext>(conf
 builder.Services.AddScoped<IFriendsRepositoryService, FriendsRepositoryService>();
 
 var app = builder.Build();
+
+app.UseSwagger();
+app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API"));
 
 app.Map("/total-friends", (context) =>
 {

@@ -12,6 +12,7 @@ namespace SixthCourseProject.Controllers
             _service = service;
         }
 
+        [HttpGet]
         public IActionResult List()
         {
             return View(_service.Read());
@@ -40,7 +41,7 @@ namespace SixthCourseProject.Controllers
             }
         }
 
-
+        [HttpGet]
         [Route("Friend/Details/{id:int}")]
         public IActionResult Details(int id)
         {
@@ -48,6 +49,7 @@ namespace SixthCourseProject.Controllers
             return View();
         }
 
+        [HttpGet]
         [Route("/Friend/Delete/{id:int}")]
         public IActionResult Delete(int id)
         {
